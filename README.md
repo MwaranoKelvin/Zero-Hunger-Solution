@@ -4,6 +4,13 @@
 **Zero Hunger Connect** is a transformative web platform designed to combat global food insecurity by bridging the gap between food surplus and food need. 
 This application empowers donors—restaurants, farms, households, and grocery stores—to redistribute excess food to individuals and organizations in need.
 
+## 🧩 Features
+
+- 🥕 **Donate & Request Food** – Donors can post surplus food; recipients can browse and request items.
+- 🍲 **Recipe Finder** – Generates meal ideas based on available ingredients.
+- 📊 **Impact Dashboard** – Tracks meals served, food waste reduced, and community reach.
+- 🔐 **Authentication** – Role-based access for donors, recipients, and volunteers.
+- 💳 **Subscription Model** – 10-day free trial, then upgrade via IntaSend or PayStack.
 
 ## 🚀 Tech Stack
 
@@ -14,7 +21,7 @@ Built with modern web technologies for speed, scalability, and developer experie
 - **Backend**: Supabase (auth, database, payments)  
 - **Dev Tools**: Bun, ESLint, GitHub Actions
 
-## 📁 Project Structure
+## 📁 Project Structure 
 
 ```bash
 ├── public/               # Static assets
@@ -36,7 +43,7 @@ git clone https://github.com/MwaranoKelvin/zero-hunger-connect.git
 cd zero-hunger-connect
 
 ### Install dependencies
-bun install
+npm install
 
 ### Start development server
-bun run dev
+npm run dev
