@@ -1,24 +1,18 @@
 # 🌍 Zero Hunger Connect
+**Zero Hunger Forge**  Built with Vibe Coding principles and aligned with UN Sustainable Development Goal 2 (Zero Hunger), the app streamlines food redistribution, promotes sustainability, and empowers communities.
 
-**Zero Hunger Connect** is a transformative web platform designed to combat global food insecurity by bridging the gap between food surplus and food need. This frontend application empowers donors—restaurants, farms, households, and grocery stores—to redistribute excess food to individuals and organizations in need.
+**Zero Hunger Connect** is a transformative web platform designed to combat global food insecurity by bridging the gap between food surplus and food need. 
+This application empowers donors—restaurants, farms, households, and grocery stores—to redistribute excess food to individuals and organizations in need.
+
 
 ## 🚀 Tech Stack
 
 Built with modern web technologies for speed, scalability, and developer experience:
 
-- [Vite](https://vitejs.dev/) – Lightning-fast build tool
-- [React](https://reactjs.org/) – UI library
-- [TypeScript](https://www.typescriptlang.org/) – Static typing
-- [Tailwind CSS](https://tailwindcss.com/) – Utility-first styling
-- [shadcn/ui](https://ui.shadcn.com/) – Accessible and customizable UI components
-
-## 🧩 Features
-
-- 📦 Donor dashboard for posting surplus food
-- 🛒 Recipient interface to request donations
-- 🔍 Smart matching algorithm based on location and urgency
-- 📊 Impact metrics: meals served, food waste reduced
-- 🔐 Role-based authentication (via Supabase)
+- **Frontend**: Vite + React + TypeScript  
+- **UI**: shadcn-ui + Tailwind CSS  
+- **Backend**: Supabase (auth, database, payments)  
+- **Dev Tools**: Bun, ESLint, GitHub Actions
 
 ## 📁 Project Structure
 
